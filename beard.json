@@ -8,7 +8,7 @@
         {
             "name": "[BUG] Support executing TYPO3.Flow inside a PHAR",
             "type": "gerrit",
-            "path": "Packages/Framework/TYPO3.FLOW3",
+            "path": "Packages/Framework/TYPO3.Flow",
             "change_id": "21329"
         }
     ]
