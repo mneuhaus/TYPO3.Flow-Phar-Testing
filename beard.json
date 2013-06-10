@@ -1,0 +1,15 @@
+{
+    "defaults": {
+        "gerrit_api_endpoint": "https://review.typo3.org/",
+        "gerrit_git": "git.typo3.org",
+        "gerrit_version": "2.7"
+    },
+    "changes": [
+        {
+            "name": "[BUG] Support executing TYPO3.Flow inside a PHAR",
+            "type": "gerrit",
+            "path": "Packages/Framework/TYPO3.FLOW3",
+            "change_id": "21329"
+        }
+    ]
+}
