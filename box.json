@@ -1,0 +1,27 @@
+{
+    "alias": "flow.phar",
+    "chmod": "0755",
+    "directories": ["Configuration", "Data/Temporary"],
+    "files": [],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": ["Tests"],
+            "in": "Packages"
+        },
+        {
+            "name": "*.json",
+            "exclude": ["Tests"],
+            "in": "Packages"
+        },
+        {
+            "name": "*.yaml",
+            "exclude": ["Tests"],
+            "in": "Packages"
+        }
+    ],
+    "main": "flow-frozen",
+    "git-version": "git_tag",
+    "output": "Build/flow-@git-version@.phar",
+    "stub": true
+}
